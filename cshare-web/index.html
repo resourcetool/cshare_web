@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <title>CSHARE</title>
+    <meta name="theme-color" content="#0E5A66" />
+    <meta name="description" content="CSHARE assignments, reminders and reports" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" type="image/png" href="/icons/icon-192.png" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="CSHARE" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <style>
+      html, body { height: 100%; margin: 0; padding: 0; }
+      body {
+        background: #F3F6F6;
+        overscroll-behavior: none;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-text-size-adjust: 100%;
+        -webkit-touch-callout: none;
+      }
+      @media (prefers-color-scheme: dark) { body { background: #0E1A1F; } }
+      #root { display: flex; flex-direction: column; height: 100%; }
+      input, textarea { -webkit-user-select: text; user-select: text; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
