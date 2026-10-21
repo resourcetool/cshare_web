@@ -1,0 +1,17 @@
+node_modules/
+android/build/
+android/app/build/
+android/.gradle/
+android/local.properties
+*.keystore
+!debug.keystore
+functions/lib/
+functions/node_modules/
+scripts/node_modules/
+scripts/serviceAccount*.json
+.env
+
+web/node_modules/
+web/dist/
+web/.vercel/
+web/.env.local
