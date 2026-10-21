@@ -4,7 +4,7 @@ import { initializeFirestore, persistentLocalCache, persistentMultipleTabManager
 
 // Public Firebase web configuration supplied by the CSHARE owner.
 const firebaseConfig = {
-  apiKey: 'AIzaSyBbdYze_LDksgSHRoSeDVcfTsAgwvUhO74',
+  apiKey: 'AIzaSyBbdYzeL_DKsgSHRoSeDVcfTsAgwvUhO74',
   authDomain: 'cshare-2fac4.firebaseapp.com',
   projectId: 'cshare-2fac4',
   storageBucket: 'cshare-2fac4.firebasestorage.app',
